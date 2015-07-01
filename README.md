@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 sails-generate-reactjs-gulp
 ===========================
 
@@ -26,6 +25,4 @@ Then run
 $ npm install -g sails-generate-reactjs-gulp
 sails generate reactjs
 ```
-=======
-# sails-generate-react-gulp
->>>>>>> branch 'master' of https://github.com/mtbvang/sails-generate-reactjs-gulp
+
