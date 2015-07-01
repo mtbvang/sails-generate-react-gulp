@@ -1,0 +1,42 @@
+{
+  "name": "sails-generate-reactjs-gulp",
+  "version": "0.0.1",
+  "description": "Add reactjs support for Sails when using gulp.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtbvang/sails-generate-reactjs-gulp.git"
+  },
+  "keywords": [
+    "sailsjs",
+    "reactjs",
+    "mocha",
+    "web",
+    "nodejs",
+    "npm",
+    "browserify",
+    "es6",
+    "babel"
+  ],
+  "author": "Vang Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "rc": "~0.5.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "reactjs",
+    "force": true,
+    "behavior": "adds reactjs frontend components",
+    "sailsVersion": "~0.10.0"
+  }
+}

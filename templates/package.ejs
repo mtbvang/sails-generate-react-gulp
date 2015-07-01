@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "lodash" : "*",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.20.3"
+  },
+  "devDependencies":{
+    "babel-eslint": "^3.1.1",
+    "eslint": "^0.20.0",
+    "eslint-loader": "^0.11.1",
+    "gulp-mocha" : "*",
+    "mocha": "~2.2.1",
+    "eslint-plugin-react": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js",
+    "lint": "eslint assets",
+    "test": "eslint assets && gulp test"
+  },
+  "main": "app.js",
+  "author": "anonymous node/sails user",
+  "license": ""
+}
