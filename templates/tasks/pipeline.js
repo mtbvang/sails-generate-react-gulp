@@ -30,7 +30,8 @@ var path = require('path')
 // to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
 		'styles/**/*.css',
-		'vendor/bootstrap/dist/css/bootstrap.min.css' ];
+		'vendor/bootstrap/dist/css/bootstrap.min.css',
+		'vendor/bootstrap/dist/css/bootstrap-theme.min.css' ];
 
 // Client-side javascript files to inject in order
 // (uses gulp-style wildcard/glob/splat expressions)
@@ -38,15 +39,17 @@ var jsFilesToInject = [
 
 		// Load sails.io before everything else
 		'js/dependencies/sails.io.js',
+		'vendor/requirejs/require.js',
 
 		// Dependencies like jQuery, or Angular are brought in here
 		'js/dependencies/**/*.js',
-		'vendor/bootstrap/dist/js/bootstrap.min.js',
 		'vendor/jquery/dist/jquery.min.js',
+		'vendor/bootstrap/dist/js/bootstrap.min.js'
 
-		// All of the rest of your client-side js files
-		// will be injected here in no particular order.
-		'js/**/*.js' ];
+// All of the rest of your client-side js files
+// will be injected here in no particular order.
+// 'js/**/*.js'
+];
 
 // Client-side HTML templates are injected using the sources below
 // The ordering of these templates shouldn't matter.
