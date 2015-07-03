@@ -1,6 +1,6 @@
 requirejs.config({
     paths: {
-      'react': '/bower_components/react/react-with-addons',
+      'react': '/vendor/react/react-with-addons',
       'app': '/js'
     },
 });
