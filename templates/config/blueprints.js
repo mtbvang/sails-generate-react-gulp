@@ -126,7 +126,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  // populate: true,
+  //populate: true,
 
   /****************************************************************************
   *                                                                           *
@@ -146,5 +146,8 @@ module.exports.blueprints = {
   ****************************************************************************/
 
   // defaultLimit: 30
+  
+  // TODO this is not a good idea for production. Allows clients to receive publishCreate messages.
+  mirror: true
 
 };
