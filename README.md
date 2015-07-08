@@ -24,8 +24,10 @@ This should be used with Matthew Marino's (https://github.com/Karnith/sails-gene
 Then run the following having gone through all the sails-generate-new-gulp instructions.
 
 ```sh
-$ npm install -g sails-generate-reactjs-gulp
+npm install -g sails-generate-reactjs-gulp
 sails generate reactjs <app name>
+sails generate bower
+npm install
 ```
 
 ## Running
