@@ -15,7 +15,7 @@ This should be used with Matthew Marino's (https://github.com/Karnith/sails-gene
     "generators": {
         "modules": {
             "bower": "sails-generate-bower-gulp",
-            "reactjs": "sails-generate-reactjs-gulp",
+            "reactjs": "sails-generate-reactjs-gulp"
         }
     }
 }
@@ -25,7 +25,7 @@ Then run the following having gone through all the sails-generate-new-gulp instr
 
 ```sh
 npm install -g sails-generate-reactjs-gulp
-sails generate reactjs <app name>
+sails generate reactjs <app name> --force
 sails generate bower
 npm install
 ```
